@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="scc-ly-Enq">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="1MI-97-6Bx">
+            <objects>
+                <viewController id="zWM-00-Gr7" customClass="ViewController" customModule="PCE相机" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8oA-Fl-52N"/>
+                        <viewControllerLayoutGuide type="bottom" id="2wP-AR-XP3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JuE-uD-w7m">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3yi-8H-jPq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1267" y="1196"/>
+        </scene>
+        <!--renwu shitu -->
+        <scene sceneID="kaB-kD-WWQ">
+            <objects>
+                <viewController id="A3I-gs-pKf" userLabel="renwu shitu " customClass="cameraPeople" customModule="PCE相机" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="M6B-Tz-QbQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="q94-2r-9KJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0uT-G2-jqE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aqf-xR-asb">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0G-ZC-kL7">
+                                <rect key="frame" x="287" y="553" width="25" height="25"/>
+                                <state key="normal" image="pRB45"/>
+                                <connections>
+                                    <action selector="takePicture:" destination="A3I-gs-pKf" eventType="touchUpInside" id="oF5-OU-bPj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86W-cd-ylS">
+                                <rect key="frame" x="0.0" y="1" width="600" height="57"/>
+                                <color key="backgroundColor" red="0.41363301699999999" green="0.41363301699999999" blue="0.41363301699999999" alpha="0.53354942380000003" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csq-DC-ggi">
+                                <rect key="frame" x="8" y="550" width="30" height="30"/>
+                                <state key="normal" image="cc30"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aqf-xR-asb" firstAttribute="leading" secondItem="0uT-G2-jqE" secondAttribute="leading" id="AOY-jx-Pim"/>
+                            <constraint firstItem="aqf-xR-asb" firstAttribute="top" secondItem="0uT-G2-jqE" secondAttribute="top" id="Bce-WI-cLb"/>
+                            <constraint firstItem="B0G-ZC-kL7" firstAttribute="centerX" secondItem="csq-DC-ggi" secondAttribute="centerX" id="HB2-0Q-5df"/>
+                            <constraint firstAttribute="trailing" secondItem="csq-DC-ggi" secondAttribute="trailing" constant="20" id="J3w-si-uOa"/>
+                            <constraint firstItem="B0G-ZC-kL7" firstAttribute="centerX" secondItem="0uT-G2-jqE" secondAttribute="centerX" id="JZQ-ih-Mf0"/>
+                            <constraint firstItem="B0G-ZC-kL7" firstAttribute="centerY" secondItem="csq-DC-ggi" secondAttribute="centerY" id="LEe-cb-KZQ"/>
+                            <constraint firstItem="q94-2r-9KJ" firstAttribute="top" secondItem="csq-DC-ggi" secondAttribute="bottom" constant="20" id="PC0-M8-K1Q"/>
+                            <constraint firstAttribute="trailing" secondItem="aqf-xR-asb" secondAttribute="trailing" id="abU-Ja-zdc"/>
+                            <constraint firstItem="B0G-ZC-kL7" firstAttribute="centerY" secondItem="0uT-G2-jqE" secondAttribute="centerY" id="cWM-9j-UsQ"/>
+                            <constraint firstItem="csq-DC-ggi" firstAttribute="leading" secondItem="0uT-G2-jqE" secondAttribute="leading" constant="20" id="gLx-2T-yir"/>
+                            <constraint firstAttribute="bottom" secondItem="aqf-xR-asb" secondAttribute="bottom" id="qdy-Tb-Yh0"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="gLx-2T-yir"/>
+                                <exclude reference="J3w-si-uOa"/>
+                                <exclude reference="HB2-0Q-5df"/>
+                                <exclude reference="cWM-9j-UsQ"/>
+                                <exclude reference="JZQ-ih-Mf0"/>
+                                <exclude reference="LEe-cb-KZQ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="J3w-si-uOa"/>
+                                <include reference="HB2-0Q-5df"/>
+                                <include reference="cWM-9j-UsQ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="constraints">
+                                <include reference="gLx-2T-yir"/>
+                                <include reference="JZQ-ih-Mf0"/>
+                                <include reference="LEe-cb-KZQ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="cameraBackButton" destination="csq-DC-ggi" id="2EG-uf-cBZ"/>
+                        <outlet property="cameraRecordsButton" destination="B0G-ZC-kL7" id="GFd-aF-U6E"/>
+                        <outlet property="cameraScoreLabel" destination="86W-cd-ylS" id="tZ6-kA-SyU"/>
+                        <outlet property="cameraUIView" destination="aqf-xR-asb" id="B6M-SF-s5w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yq8-wG-JpM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1267" y="364"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dF0-sn-PvX">
+            <objects>
+                <viewController id="scc-ly-Enq" customClass="ViewController" customModule="PCE相机" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fus-Zh-WyH"/>
+                        <viewControllerLayoutGuide type="bottom" id="Poq-Yr-ckD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PFe-U0-NVZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="q8q-Ny-lSm">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tmp1" translatesAutoresizingMaskIntoConstraints="NO" id="cdl-NK-YfW">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="570"/>
+                                    </imageView>
+                                    <stackView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vfv-fl-iVw">
+                                        <rect key="frame" x="0.0" y="570" width="600" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qzc-P6-pMh">
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="30"/>
+                                                <state key="normal" title="照片墙"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQa-8z-gJb">
+                                                <rect key="frame" x="200" y="0.0" width="200" height="30"/>
+                                                <state key="normal" title="拍照"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jn-Ov-r9K">
+                                                <rect key="frame" x="400" y="0.0" width="200" height="30"/>
+                                                <state key="normal" title="设置"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="9jn-Ov-r9K" firstAttribute="width" secondItem="Qzc-P6-pMh" secondAttribute="width" id="e45-Jt-qgf"/>
+                                            <constraint firstItem="vQa-8z-gJb" firstAttribute="width" secondItem="Qzc-P6-pMh" secondAttribute="width" id="nox-eB-EJn"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.3020731921" green="0.92602589089999998" blue="0.96050182910000004" alpha="0.97473060339999995" colorSpace="calibratedRGB"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="q8q-Ny-lSm" firstAttribute="top" secondItem="PFe-U0-NVZ" secondAttribute="top" id="EYi-Zl-6Xv"/>
+                            <constraint firstItem="q8q-Ny-lSm" firstAttribute="leading" secondItem="PFe-U0-NVZ" secondAttribute="leading" id="RcS-UL-R5T"/>
+                            <constraint firstAttribute="bottom" secondItem="Vfv-fl-iVw" secondAttribute="bottom" id="Yw5-bG-thd"/>
+                            <constraint firstAttribute="trailing" secondItem="q8q-Ny-lSm" secondAttribute="trailing" id="vS2-A0-zwo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qQw-bR-EHI" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234" y="364"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cc30" width="746" height="1238"/>
+        <image name="pRB45" width="746" height="1238"/>
+        <image name="tmp1" width="746" height="1238"/>
+    </resources>
+</document>

@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A381EAD1CB5EB9000577DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A381EAC1CB5EB9000577DB6 /* AppDelegate.swift */; };
+		0A381EAF1CB5EB9000577DB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A381EAE1CB5EB9000577DB6 /* ViewController.swift */; };
+		0A381EB21CB5EB9000577DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A381EB01CB5EB9000577DB6 /* Main.storyboard */; };
+		0A381EB41CB5EB9000577DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A381EB31CB5EB9000577DB6 /* Assets.xcassets */; };
+		0A381EB71CB5EB9000577DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A381EB51CB5EB9000577DB6 /* LaunchScreen.storyboard */; };
+		0A381EC21CB5EB9000577DB6 /* PCE__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A381EC11CB5EB9000577DB6 /* PCE__Tests.swift */; };
+		0A381ECD1CB5EB9000577DB6 /* PCE__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A381ECC1CB5EB9000577DB6 /* PCE__UITests.swift */; };
+		0A381EDD1CB5EC3300577DB6 /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0A381EDA1CB5EC3300577DB6 /* haarcascade_frontalface_alt2.xml */; };
+		0A381EDE1CB5EC3300577DB6 /* mid_KNN.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0A381EDB1CB5EC3300577DB6 /* mid_KNN.xml */; };
+		0A381EDF1CB5EC3300577DB6 /* mid_NBC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0A381EDC1CB5EC3300577DB6 /* mid_NBC.xml */; };
+		0A381EE11CB5EC4300577DB6 /* pca.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0A381EE01CB5EC4300577DB6 /* pca.xml */; };
+		0A381EE61CB5EC5000577DB6 /* third_KNN.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0A381EE21CB5EC5000577DB6 /* third_KNN.xml */; };
+		0A381EE71CB5EC5000577DB6 /* third_logistic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0A381EE31CB5EC5000577DB6 /* third_logistic.xml */; };
+		0A381EE81CB5EC5000577DB6 /* third_NBC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0A381EE41CB5EC5000577DB6 /* third_NBC.xml */; };
+		0A381EE91CB5EC5000577DB6 /* third_svm.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0A381EE51CB5EC5000577DB6 /* third_svm.xml */; };
+		0A381EEB1CB5ED4100577DB6 /* cameraPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A381EEA1CB5ED4100577DB6 /* cameraPeople.swift */; };
+		0A381EED1CB5ED7000577DB6 /* cameraPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A381EEC1CB5ED7000577DB6 /* cameraPhoto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A381EBE1CB5EB9000577DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A381EA11CB5EB9000577DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A381EA81CB5EB9000577DB6;
+			remoteInfo = "PCE相机";
+		};
+		0A381EC91CB5EB9000577DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A381EA11CB5EB9000577DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A381EA81CB5EB9000577DB6;
+			remoteInfo = "PCE相机";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A381EA91CB5EB9000577DB6 /* PCE相机.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PCE相机.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A381EAC1CB5EB9000577DB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A381EAE1CB5EB9000577DB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A381EB11CB5EB9000577DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A381EB31CB5EB9000577DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A381EB61CB5EB9000577DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A381EB81CB5EB9000577DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A381EBD1CB5EB9000577DB6 /* PCE相机Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PCE相机Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A381EC11CB5EB9000577DB6 /* PCE__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCE__Tests.swift; sourceTree = "<group>"; };
+		0A381EC31CB5EB9000577DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A381EC81CB5EB9000577DB6 /* PCE相机UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PCE相机UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A381ECC1CB5EB9000577DB6 /* PCE__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCE__UITests.swift; sourceTree = "<group>"; };
+		0A381ECE1CB5EB9000577DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A381EDA1CB5EC3300577DB6 /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_frontalface_alt2.xml; path = "PCE相机/haarcascade_frontalface_alt2.xml"; sourceTree = "<group>"; };
+		0A381EDB1CB5EC3300577DB6 /* mid_KNN.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = mid_KNN.xml; path = "PCE相机/mid_KNN.xml"; sourceTree = "<group>"; };
+		0A381EDC1CB5EC3300577DB6 /* mid_NBC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = mid_NBC.xml; path = "PCE相机/mid_NBC.xml"; sourceTree = "<group>"; };
+		0A381EE01CB5EC4300577DB6 /* pca.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pca.xml; sourceTree = "<group>"; };
+		0A381EE21CB5EC5000577DB6 /* third_KNN.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = third_KNN.xml; sourceTree = "<group>"; };
+		0A381EE31CB5EC5000577DB6 /* third_logistic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = third_logistic.xml; sourceTree = "<group>"; };
+		0A381EE41CB5EC5000577DB6 /* third_NBC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = third_NBC.xml; sourceTree = "<group>"; };
+		0A381EE51CB5EC5000577DB6 /* third_svm.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = third_svm.xml; sourceTree = "<group>"; };
+		0A381EEA1CB5ED4100577DB6 /* cameraPeople.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameraPeople.swift; sourceTree = "<group>"; };
+		0A381EEC1CB5ED7000577DB6 /* cameraPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameraPhoto.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A381EA61CB5EB9000577DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A381EBA1CB5EB9000577DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A381EC51CB5EB9000577DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A381EA01CB5EB9000577DB6 = {
+			isa = PBXGroup;
+			children = (
+				0A381EDA1CB5EC3300577DB6 /* haarcascade_frontalface_alt2.xml */,
+				0A381EDB1CB5EC3300577DB6 /* mid_KNN.xml */,
+				0A381EDC1CB5EC3300577DB6 /* mid_NBC.xml */,
+				0A381EE01CB5EC4300577DB6 /* pca.xml */,
+				0A381EE21CB5EC5000577DB6 /* third_KNN.xml */,
+				0A381EE31CB5EC5000577DB6 /* third_logistic.xml */,
+				0A381EE41CB5EC5000577DB6 /* third_NBC.xml */,
+				0A381EE51CB5EC5000577DB6 /* third_svm.xml */,
+				0A381EAB1CB5EB9000577DB6 /* PCE相机 */,
+				0A381EC01CB5EB9000577DB6 /* PCE相机Tests */,
+				0A381ECB1CB5EB9000577DB6 /* PCE相机UITests */,
+				0A381EAA1CB5EB9000577DB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A381EAA1CB5EB9000577DB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A381EA91CB5EB9000577DB6 /* PCE相机.app */,
+				0A381EBD1CB5EB9000577DB6 /* PCE相机Tests.xctest */,
+				0A381EC81CB5EB9000577DB6 /* PCE相机UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A381EAB1CB5EB9000577DB6 /* PCE相机 */ = {
+			isa = PBXGroup;
+			children = (
+				0A381EAC1CB5EB9000577DB6 /* AppDelegate.swift */,
+				0A381EEA1CB5ED4100577DB6 /* cameraPeople.swift */,
+				0A381EEC1CB5ED7000577DB6 /* cameraPhoto.swift */,
+				0A381EAE1CB5EB9000577DB6 /* ViewController.swift */,
+				0A381EB01CB5EB9000577DB6 /* Main.storyboard */,
+				0A381EB31CB5EB9000577DB6 /* Assets.xcassets */,
+				0A381EB51CB5EB9000577DB6 /* LaunchScreen.storyboard */,
+				0A381EB81CB5EB9000577DB6 /* Info.plist */,
+			);
+			path = "PCE相机";
+			sourceTree = "<group>";
+		};
+		0A381EC01CB5EB9000577DB6 /* PCE相机Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0A381EC11CB5EB9000577DB6 /* PCE__Tests.swift */,
+				0A381EC31CB5EB9000577DB6 /* Info.plist */,
+			);
+			path = "PCE相机Tests";
+			sourceTree = "<group>";
+		};
+		0A381ECB1CB5EB9000577DB6 /* PCE相机UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A381ECC1CB5EB9000577DB6 /* PCE__UITests.swift */,
+				0A381ECE1CB5EB9000577DB6 /* Info.plist */,
+			);
+			path = "PCE相机UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A381EA81CB5EB9000577DB6 /* PCE相机 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A381ED11CB5EB9000577DB6 /* Build configuration list for PBXNativeTarget "PCE相机" */;
+			buildPhases = (
+				0A381EA51CB5EB9000577DB6 /* Sources */,
+				0A381EA61CB5EB9000577DB6 /* Frameworks */,
+				0A381EA71CB5EB9000577DB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PCE相机";
+			productName = "PCE相机";
+			productReference = 0A381EA91CB5EB9000577DB6 /* PCE相机.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A381EBC1CB5EB9000577DB6 /* PCE相机Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A381ED41CB5EB9000577DB6 /* Build configuration list for PBXNativeTarget "PCE相机Tests" */;
+			buildPhases = (
+				0A381EB91CB5EB9000577DB6 /* Sources */,
+				0A381EBA1CB5EB9000577DB6 /* Frameworks */,
+				0A381EBB1CB5EB9000577DB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A381EBF1CB5EB9000577DB6 /* PBXTargetDependency */,
+			);
+			name = "PCE相机Tests";
+			productName = "PCE相机Tests";
+			productReference = 0A381EBD1CB5EB9000577DB6 /* PCE相机Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A381EC71CB5EB9000577DB6 /* PCE相机UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A381ED71CB5EB9000577DB6 /* Build configuration list for PBXNativeTarget "PCE相机UITests" */;
+			buildPhases = (
+				0A381EC41CB5EB9000577DB6 /* Sources */,
+				0A381EC51CB5EB9000577DB6 /* Frameworks */,
+				0A381EC61CB5EB9000577DB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A381ECA1CB5EB9000577DB6 /* PBXTargetDependency */,
+			);
+			name = "PCE相机UITests";
+			productName = "PCE相机UITests";
+			productReference = 0A381EC81CB5EB9000577DB6 /* PCE相机UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A381EA11CB5EB9000577DB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kevin_Feng;
+				TargetAttributes = {
+					0A381EA81CB5EB9000577DB6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7AVDNX29VL;
+					};
+					0A381EBC1CB5EB9000577DB6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7AVDNX29VL;
+						TestTargetID = 0A381EA81CB5EB9000577DB6;
+					};
+					0A381EC71CB5EB9000577DB6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7AVDNX29VL;
+						TestTargetID = 0A381EA81CB5EB9000577DB6;
+					};
+				};
+			};
+			buildConfigurationList = 0A381EA41CB5EB9000577DB6 /* Build configuration list for PBXProject "PCE相机" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A381EA01CB5EB9000577DB6;
+			productRefGroup = 0A381EAA1CB5EB9000577DB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A381EA81CB5EB9000577DB6 /* PCE相机 */,
+				0A381EBC1CB5EB9000577DB6 /* PCE相机Tests */,
+				0A381EC71CB5EB9000577DB6 /* PCE相机UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A381EA71CB5EB9000577DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A381EB71CB5EB9000577DB6 /* LaunchScreen.storyboard in Resources */,
+				0A381EB41CB5EB9000577DB6 /* Assets.xcassets in Resources */,
+				0A381EE11CB5EC4300577DB6 /* pca.xml in Resources */,
+				0A381EE81CB5EC5000577DB6 /* third_NBC.xml in Resources */,
+				0A381EDF1CB5EC3300577DB6 /* mid_NBC.xml in Resources */,
+				0A381EDD1CB5EC3300577DB6 /* haarcascade_frontalface_alt2.xml in Resources */,
+				0A381EE61CB5EC5000577DB6 /* third_KNN.xml in Resources */,
+				0A381EE91CB5EC5000577DB6 /* third_svm.xml in Resources */,
+				0A381EDE1CB5EC3300577DB6 /* mid_KNN.xml in Resources */,
+				0A381EE71CB5EC5000577DB6 /* third_logistic.xml in Resources */,
+				0A381EB21CB5EB9000577DB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A381EBB1CB5EB9000577DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A381EC61CB5EB9000577DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A381EA51CB5EB9000577DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A381EAF1CB5EB9000577DB6 /* ViewController.swift in Sources */,
+				0A381EAD1CB5EB9000577DB6 /* AppDelegate.swift in Sources */,
+				0A381EEB1CB5ED4100577DB6 /* cameraPeople.swift in Sources */,
+				0A381EED1CB5ED7000577DB6 /* cameraPhoto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A381EB91CB5EB9000577DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A381EC21CB5EB9000577DB6 /* PCE__Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A381EC41CB5EB9000577DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A381ECD1CB5EB9000577DB6 /* PCE__UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A381EBF1CB5EB9000577DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A381EA81CB5EB9000577DB6 /* PCE相机 */;
+			targetProxy = 0A381EBE1CB5EB9000577DB6 /* PBXContainerItemProxy */;
+		};
+		0A381ECA1CB5EB9000577DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A381EA81CB5EB9000577DB6 /* PCE相机 */;
+			targetProxy = 0A381EC91CB5EB9000577DB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A381EB01CB5EB9000577DB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A381EB11CB5EB9000577DB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A381EB51CB5EB9000577DB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A381EB61CB5EB9000577DB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A381ECF1CB5EB9000577DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A381ED01CB5EB9000577DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A381ED21CB5EB9000577DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PCE相机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinfeng.PCE--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A381ED31CB5EB9000577DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PCE相机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinfeng.PCE--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A381ED51CB5EB9000577DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PCE相机Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinfeng.PCE--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PCE相机.app/PCE相机";
+			};
+			name = Debug;
+		};
+		0A381ED61CB5EB9000577DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PCE相机Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinfeng.PCE--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PCE相机.app/PCE相机";
+			};
+			name = Release;
+		};
+		0A381ED81CB5EB9000577DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PCE相机UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinfeng.PCE--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "PCE相机";
+			};
+			name = Debug;
+		};
+		0A381ED91CB5EB9000577DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PCE相机UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinfeng.PCE--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "PCE相机";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A381EA41CB5EB9000577DB6 /* Build configuration list for PBXProject "PCE相机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A381ECF1CB5EB9000577DB6 /* Debug */,
+				0A381ED01CB5EB9000577DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A381ED11CB5EB9000577DB6 /* Build configuration list for PBXNativeTarget "PCE相机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A381ED21CB5EB9000577DB6 /* Debug */,
+				0A381ED31CB5EB9000577DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A381ED41CB5EB9000577DB6 /* Build configuration list for PBXNativeTarget "PCE相机Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A381ED51CB5EB9000577DB6 /* Debug */,
+				0A381ED61CB5EB9000577DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A381ED71CB5EB9000577DB6 /* Build configuration list for PBXNativeTarget "PCE相机UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A381ED81CB5EB9000577DB6 /* Debug */,
+				0A381ED91CB5EB9000577DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A381EA11CB5EB9000577DB6 /* Project object */;
+}
